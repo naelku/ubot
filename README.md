@@ -3,10 +3,10 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/naelku/ucea
+git clone https://github.com/naelku/ubot
 ```
 ```
-cd ucea && screen -S ucea
+cd ubot && screen -S ubot
 ```
 ```
 apt install ffmpeg -y
@@ -18,7 +18,7 @@ bash installnode.sh
 apt install python3.10-venv
 ```
 ```
-python3 -m venv ucea && source ucea/bin/activate
+python3 -m venv ucea && source ubot/bin/activate
 ```
 ```
 pip3 install -r requirements.txt
@@ -27,7 +27,7 @@ pip3 install -r requirements.txt
 cp sample.env .env && nano .env
 ```
 ```
-screen -S ucea
+screen -S ubot
 ```
 ```
 python3 -m PyroUbot
